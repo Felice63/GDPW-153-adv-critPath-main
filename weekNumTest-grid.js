@@ -84,3 +84,14 @@ for(i = 0; i < tblRwQry.length; i++){
 // Scroll to focus on the wearejhere class
 
 document.getElementsByClassName("thisWeek wearehere")[0].scrollIntoView();
+
+/*
+NOTE: to get a future week number I can use the function above: getWeekNumber() and pass the newDate() function to it as a parameter.
+
+For the new Date() function, add the parameters year, month, day
+Note that January is month number 00
+and Jan 1 2023 is a Sunday, but the weekday starts on a Monday, so to get the first week of January 2023, use this:
+
+getWeekNumber(new Date(2023, 00, 02));
+
+*/
