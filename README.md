@@ -1,2 +1,2 @@
-# GDPW-153 Critical Path for Winter 2022 Term
+# GDPW-153 Critical Path
 [Demo](https://felice63.github.io/GDPW-153-adv-critPath-main/)
