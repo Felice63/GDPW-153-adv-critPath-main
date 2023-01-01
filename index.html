@@ -1,471 +1,581 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Critical Path - Web Design & Development - GDPW 153 - Winter 2023</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="critPathStyle-GRID.css" rel="stylesheet">
-</head>
+  <head>
+    <title>
+      Critical Path - Web Design & Development - GDPW 153 - Winter 2023
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="critPathStyle-GRID.css" rel="stylesheet" />
+  </head>
 
-<body>
-
-<!-- SEE THIS FOR WEEK NUMBERS: https://www.epochconverter.com/weeks/2022 -->
-<!-- Can also use my function: getWeekNumber(new Date(2023, 00, 02));
+  <body>
+    <!-- SEE THIS FOR WEEK NUMBERS: https://www.epochconverter.com/weeks/2022 -->
+    <!-- Can also use my function: getWeekNumber(new Date(2023, 00, 02));
 with the parameters for new Date(year, month, day)
 January is month number 0, and the week starts on Monday.
 In the console, doing  getWeekNumber(new Date(2023, 00, 02))  
 returns [2023, 1]  which gives week 1 of the year 2023;
 -->
 
-<header>
-    <h1>Critical Path - Web Design &amp; Development - GDPW 153</h1>
-    <p>NOTE: weekly exercises are due <strong><u>before the start of the following class.</u></strong><br></p>
-    <strong><span class="wearehere" style="padding:15px; margin-bottom: 20px; width:fit-content; position: relative; top: -10px; z-index: -1; display: block;">Indicates the curent week</span></strong>
-</header>
+    <header>
+      <h1>Critical Path - Web Design &amp; Development - GDPW 153</h1>
+      <p>
+        NOTE: weekly exercises are due
+        <strong><u>before the start of the following class.</u></strong
+        ><br />
+      </p>
+      <strong
+        ><span
+          class="wearehere"
+          style="
+            padding: 15px;
+            margin-bottom: 20px;
+            width: fit-content;
+            position: relative;
+            top: -10px;
+            z-index: -1;
+            display: block;
+          "
+          >Indicates the curent week</span
+        ></strong
+      >
+    </header>
 
-<main class="table">
-    <!-- .tablehead-->
-    <span class="tableHead">WEEK # <hr>Date</span>
-    <span class="tableHead">MODULE <hr>Topics</span>
-    <span class="tableHead">WEEKLY Exercises - START <hr>End of Module QUIZ</span>
-    <span class="tableHead">WEEKLY Exercises - DUE <hr>PROJECTS Start / DUE</span>
+    <main class="table">
+      <!-- .tablehead-->
+      <span class="tableHead"
+        >WEEK #
+        <hr />
+        Date</span
+      >
+      <span class="tableHead"
+        >MODULE
+        <hr />
+        Topics</span
+      >
+      <span class="tableHead"
+        >WEEKLY Exercises - START
+        <hr />
+        End of Module QUIZ</span
+      >
+      <span class="tableHead"
+        >WEEKLY Exercises - DUE
+        <hr />
+        PROJECTS Start / DUE</span
+      >
 
-    <!--WEEK 1-->
-    <section class="thisWeek row" data-weekNum="2">
-        <span>Week # 1<br />
-            <hr />Fri. Jan. 13
+      <!--WEEK 1-->
+      <section class="thisWeek row" data-weekNum="2">
+        <span
+          >Week # 1<br />
+          <hr />
+          Fri. Jan. 13
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="2"> 
+      </section>
+      <section class="thisWeek row" data-weekNum="2">
         <span>
-            <div class="modOne">MODULE 1</div>
+          <div class="modOne">MODULE 1</div>
 
-            <h4>CSS Selectors </h4>
-            <ul>
-                <li>Direct descendant selectors ( a > b )</li>
-                <li>Adjacent selectors (~) and ( a  + b )</li>
-                <li>Pseudo selectors :before,  :after, :nth-child()</li>
-                <li>Attribute selectors  ( a [ attribute=”value” ] )</li>
-                <li>Custom Properties and variables</li>
-            </ul>  
+          <h4>CSS Selectors</h4>
+          <ul>
+            <li>Direct descendant selectors ( a > b )</li>
+            <li>Adjacent selectors (~) and ( a + b )</li>
+            <li>Pseudo selectors :before, :after, :nth-child()</li>
+            <li>Attribute selectors ( a [ attribute=”value” ] )</li>
+            <li>Custom Properties and variables</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="2">   
+      </section>
+      <section class="thisWeek row" data-weekNum="2">
         <span>
-            <strong>Tutorial / Demonstration</strong>
+          <strong>Tutorial / Demonstration</strong>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="2"> 
+      </section>
+      <section class="thisWeek row" data-weekNum="2">
         <span>N / A</span>
-    </section >
+      </section>
 
-    <!--WEEK 2-->
-    <section class="thisWeek row" data-weekNum="3">
-        <span>Week # 2<br />
-            <hr />Fri. Jan. 20
+      <!--WEEK 2-->
+      <section class="thisWeek row" data-weekNum="3">
+        <span
+          >Week # 2<br />
+          <hr />
+          Fri. Jan. 20
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="3">
+      </section>
+      <section class="thisWeek row" data-weekNum="3">
         <span>
-            <div class="modOne">MODULE 1</div>
-            <h4>CSS KEYFRAME ANIMATION</h4>
-            <ul>
-                <li>@keyframe rule</li>
-                <li>animation-name</li>
-                <li>animation-duration</li>
-                <li>animation-iteration-count</li> 
-                <li>animation-direction</li>
-                <li>animation-play-state</li>
-                <li>input[type=checkbox]</li>
-            </ul>
+          <div class="modOne">MODULE 1</div>
+          <h4>CSS KEYFRAME ANIMATION</h4>
+          <ul>
+            <li>@keyframe rule</li>
+            <li>animation-name</li>
+            <li>animation-duration</li>
+            <li>animation-iteration-count</li>
+            <li>animation-direction</li>
+            <li>animation-play-state</li>
+            <li>input[type=checkbox]</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="3">    
+      </section>
+      <section class="thisWeek row" data-weekNum="3">
         <span>
-            <strong class="modOne">Exercise 1.1 - CSS Keyframe Animation</strong>
-            <ul>
-                <li>Following the tutorial, create an original CSS keyframe animation</li>
-                <li>Show examples of CSS animation properties in your stylesheet</li>
-                <li>Due before the start of next class</li>
-                <li>10 &#37;</li>
-            </ul>
+          <strong class="modOne">Exercise 1.1 - CSS Keyframe Animation</strong>
+          <ul>
+            <li>
+              Following the tutorial, create an original CSS keyframe animation
+            </li>
+            <li>
+              Show examples of CSS animation properties in your stylesheet
+            </li>
+            <li>Due before the start of next class</li>
+            <li>10 &#37;</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="3">    
+      </section>
+      <section class="thisWeek row" data-weekNum="3">
         <span>
-            <strong class="labsdue"></strong>             
+          <strong class="labsdue"></strong>
         </span>
-    </section >
+      </section>
 
-    <!--WEEK 3-->
-    <section class="thisWeek modsep row" data-weekNum="4">
-        <span>Week # 3<br />
-            <hr />Fri. Jan. 27
+      <!--WEEK 3-->
+      <section class="thisWeek modsep row" data-weekNum="4">
+        <span
+          >Week # 3<br />
+          <hr />
+          Fri. Jan. 27
         </span>
-    </section>
-    <section class="thisWeek modsep row" data-weekNum="4">    
+      </section>
+      <section class="thisWeek modsep row" data-weekNum="4">
         <span>
-            <div class="modOne">MODULE 1</div>
-            <h4>CSS Grid</h4>
-            <ul>
-                <li>Grid Container Properties</li>
-                <li>Grid Item Properties</li>
-            </ul>
+          <div class="modOne">MODULE 1</div>
+          <h4>CSS Grid</h4>
+          <ul>
+            <li>Grid Container Properties</li>
+            <li>Grid Item Properties</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek modsep row" data-weekNum="4">       
+      </section>
+      <section class="thisWeek modsep row" data-weekNum="4">
         <span>
-            <strong>Tutorial / Demonstration</strong>
-            <hr>
-            <strong class="quiz">End of Module Quiz 1  --  10 &#37;</strong>
+          <strong>Tutorial / Demonstration</strong>
+          <hr />
+          <strong class="quiz">End of Module Quiz 1 -- 10 &#37;</strong>
         </span>
-    </section>
-    <section class="thisWeek modsep row" data-weekNum="4">       
+      </section>
+      <section class="thisWeek modsep row" data-weekNum="4">
         <span>
-            <strong class="labsdue">Exercise &#35; 1.1 - DUE before the start of class</strong>             
+          <strong class="labsdue"
+            >Exercise &#35; 1.1 - DUE before the start of class</strong
+          >
         </span>
-    </section >
+      </section>
 
-    <!--WEEK 4-->
-    <section class="thisWeek row" data-weekNum="5" >
-        <span>Week # 4<hr />Fri. Feb. 3</span>
-    </section>
-    <section class="thisWeek row" data-weekNum="5">    
+      <!--WEEK 4-->
+      <section class="thisWeek row" data-weekNum="5">
+        <span
+          >Week # 4
+          <hr />
+          Fri. Feb. 3</span
+        >
+      </section>
+      <section class="thisWeek row" data-weekNum="5">
         <span>
-            <div class="modTwo">MODULE 2</div>
+          <div class="modTwo">MODULE 2</div>
 
-                <h4>OBJECT MODELS (BOM, DOM, CSSOM)</h4>
-                <ul>
-                    <li>Javascript Console</li>
-                    <li>Window Objects (Browser Object Model)</li>
-                    <li>Document Objects (Document Object Model)</li>
-                    <li>CSS Objects (CSS Object Model)</li>
-                    <li>Querying the document</li>
-                </ul>
+          <h4>OBJECT MODELS (BOM, DOM, CSSOM)</h4>
+          <ul>
+            <li>Javascript Console</li>
+            <li>Window Objects (Browser Object Model)</li>
+            <li>Document Objects (Document Object Model)</li>
+            <li>CSS Objects (CSS Object Model)</li>
+            <li>Querying the document</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="5">       
+      </section>
+      <section class="thisWeek row" data-weekNum="5">
         <span>
-            <strong class="modTwo">Exercise 2.1 - TBD</strong>
-            <ul>
-                <li>Following the tutorial ...</li>
-                <li>Due before the start of next class</li>
-                <li>5 &#37;</li>
-            </ul>
+          <strong class="modTwo">Exercise 2.1 - TBD</strong>
+          <ul>
+            <!-- <li>Following the tutorial ...</li> -->
+            <li>Due before the start of next class</li>
+            <li>5 &#37;</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="5">                    
+      </section>
+      <section class="thisWeek row" data-weekNum="5">
         <span></span>
-    </section>
+      </section>
 
-    <!--WEEK 5-->
-    <section class="thisWeek row" data-weekNum="6" >
-        <span>Week # 5
-            <hr />Fri. Feb. 10
+      <!--WEEK 5-->
+      <section class="thisWeek row" data-weekNum="6">
+        <span
+          >Week # 5
+          <hr />
+          Fri. Feb. 10
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="6">    
+      </section>
+      <section class="thisWeek row" data-weekNum="6">
         <span>
-            <div class="modTwo">MODULE 2</div>
-            <h4>INTRODUCTION TO JAVASCRIPT</h4>
-            <ul>
-                <li>Javascript Object Notation (JSON)</li> 
-                <li>Properties, Methods & Events</li>
-            </ul>
+          <div class="modTwo">MODULE 2</div>
+          <h4>INTRODUCTION TO JAVASCRIPT</h4>
+          <ul>
+            <li>Javascript Object Notation (JSON)</li>
+            <li>Properties, Methods & Events</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="6">     
+      </section>
+      <section class="thisWeek row" data-weekNum="6">
         <span>
-            <strong class="modTwo">Exercise 2.2 - TBD</strong>
-            <ul>
-                <li>Following the tutorial, create a ...</li>
-                <li>Due before the start of next class</li>
-                <li>5 &#37;</li>
-            </ul>
+          <strong class="modTwo">Exercise 2.2 - TBD</strong>
+          <ul>
+            <!-- <li>Following the tutorial, create a ...</li> -->
+            <li>Due before the start of next class</li>
+            <li>5 &#37;</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="6">                     
+      </section>
+      <section class="thisWeek row" data-weekNum="6">
         <span>
-            <strong class="labsdue">Exercise &#35; 2.1 - DUE before the start of class</strong>             
-        </span>   
-    </section>
-            
-    <!--WEEK 6-->
-    <section class="thisWeek row" data-weekNum="7">
-        <span>Week # 6
-            <hr />Fri. Feb. 17
+          <strong class="labsdue"
+            >Exercise &#35; 2.1 - DUE before the start of class</strong
+          >
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="7">
+      </section>
+
+      <!--WEEK 6-->
+      <section class="thisWeek row" data-weekNum="7">
+        <span
+          >Week # 6
+          <hr />
+          Fri. Feb. 17
+        </span>
+      </section>
+      <section class="thisWeek row" data-weekNum="7">
         <span>
-            <div class="modTwo">MODULE 2</div>
-            <h4>INTRODUCTION TO JAVASCRIPT</h4>
-            <ul>
-                <li>Data types</li>
-                <li>Equality</li>
-                <li>Variables</li>
-            </ul>
+          <div class="modTwo">MODULE 2</div>
+          <h4>INTRODUCTION TO JAVASCRIPT</h4>
+          <ul>
+            <li>Data types</li>
+            <li>Equality</li>
+            <li>Variables</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="7">     
+      </section>
+      <section class="thisWeek row" data-weekNum="7">
         <span>
-            <strong class="modTwo">Exercise 2.3 - TBD</strong>
-            <ul>
-                <li>Following the tutorial, create a ... </li>
-                <li>Due before the start of next class</li>
-                <li>5 &#37;</li>
-            </ul>
+          <strong class="modTwo">Exercise 2.3 - TBD</strong>
+          <ul>
+            <!-- <li>Following the tutorial, create a ...</li> -->
+            <li>Due before the start of next class</li>
+            <li>5 &#37;</li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="7">        
+      </section>
+      <section class="thisWeek row" data-weekNum="7">
         <span>
-            <strong class="labsdue">Exercise &#35; 2.2 - DUE before the start of class</strong>             
+          <strong class="labsdue"
+            >Exercise &#35; 2.2 - DUE before the start of class</strong
+          >
         </span>
-    </section >
-                
-    <!--WEEK 7-->
-    <section class="thisWeek row" data-weekNum="8">
-        <span>Week # 7
-            <hr />Fri. Feb. 24
+      </section>
+
+      <!--WEEK 7-->
+      <section class="thisWeek row" data-weekNum="8">
+        <span
+          >Week # 7
+          <hr />
+          Fri. Feb. 24
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="8">    
+      </section>
+      <section class="thisWeek row" data-weekNum="8">
         <span>
-            <div class="modTwo">MODULE 2</div>
-            <h4>INTRODUCTION TO JAVASCRIPT</h4>
-            <ul>
-                <li>Conditional statements</li>
-                <li>Functions and Methods</li>
-            </ul>
+          <div class="modTwo">MODULE 2</div>
+          <h4>INTRODUCTION TO JAVASCRIPT</h4>
+          <ul>
+            <li>Conditional statements</li>
+            <li>Functions and Methods</li>
+          </ul>
         </span>
-    </section>    
-    <section class="thisWeek row" data-weekNum="8">
+      </section>
+      <section class="thisWeek row" data-weekNum="8">
         <span>
-            <strong>Tutorial / Demonstration</strong><br>
-                <em>- conditional statements, functions (methods)</em>
-            <hr>
-            <strong class="quiz">End of Module Quiz 2 -- 10 &#37;</strong>
+          <strong>Tutorial / Demonstration</strong><br />
+          <em>- conditional statements, functions (methods)</em>
+          <hr />
+          <strong class="quiz">End of Module Quiz 2 -- 10 &#37;</strong>
         </span>
-    </section>    
-    <section class="thisWeek row" data-weekNum="8">
-        <strong class="labsdue">Exercise &#35; 2.3 - DUE before the start of class</strong>
-    </section>
-                
-    <!--READING WEEK 8 -->
-    <section class="midTerm" >
+      </section>
+      <section class="thisWeek row" data-weekNum="8">
+        <strong class="labsdue"
+          >Exercise &#35; 2.3 - DUE before the start of class</strong
+        >
+      </section>
+
+      <!--READING WEEK 8 -->
+      <section class="midTerm">
         <span>Week # 8 </span>
         <span>Feb. 27 - Mar. 3</span>
-        <span style="text-align: center; font-weight: bold; font-size: 150%;color: white;">READING WEEK - NO CLASSES</span>
-    </section >
-     
-    <!--WEEK 9-->
-    <section class="thisWeek row" data-weekNum="10">
-        <span>Week # 9
-            <hr />Fri. Mar. 10
-            <hr /><em>MIDTERM GRADES DUE THIS WEEK</em>
-        </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="10">  
-        <span>
-            <div class="modThree">MODULE 3</div>     
-            <h4>WEB HOSTING & DOMAINS</h4>
-            <ul>
-                <li>Acquiring a Web Host</li>
-                <li>Acquiring a Domain name </li>
-            </ul>
-        </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="10">           
-        <span>
-            <strong>Tutorial / Demonstration</strong><br>
-            <em>- Review the steps to acquiring a web host account and domain name.</em>
-        </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="10">     
-        <span class="asmtstart"><em>START Project <br>&mdash;  Portfolio Web Site</em></span>
-    </section>
+        <span
+          style="
+            text-align: center;
+            font-weight: bold;
+            font-size: 150%;
+            color: white;
+          "
+          >READING WEEK - NO CLASSES</span
+        >
+      </section>
 
-    <!--WEEK 10-->
-    <section class="thisWeek row" data-weekNum="11">
-        <span>Week # 10
-            <br />
-            <hr />Fri. Mar. 17
+      <!--WEEK 9-->
+      <section class="thisWeek row" data-weekNum="10">
+        <span
+          >Week # 9
+          <hr />
+          Fri. Mar. 10
+          <hr />
+          <em>MIDTERM GRADES DUE THIS WEEK</em>
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="11"> 
+      </section>
+      <section class="thisWeek row" data-weekNum="10">
         <span>
-            <div class="modThree">MODULE 3</div>  
-            <h4>WEB HOSTING & DOMAINS</h4>
-            <ul>
-                <li>Uploading files to your hosting environment</li>
-                <li>File Transfer Protocol (FTP)</li>
-                <li>Connect your domain to your hosting account (Domain Name records)</li>           
-            </ul>
+          <div class="modThree">MODULE 3</div>
+          <h4>WEB HOSTING & DOMAINS</h4>
+          <ul>
+            <li>Acquiring a Web Host</li>
+            <li>Acquiring a Domain name</li>
+          </ul>
         </span>
-    </section>    
-    <section class="thisWeek row" data-weekNum="11">  
+      </section>
+      <section class="thisWeek row" data-weekNum="10">
         <span>
-            <strong>Tutorial / Demonstration</strong><br>
-            <em>- Review the steps to uploading files to a web host account</em>
+          <strong>Tutorial / Demonstration</strong><br />
+          <em
+            >- Review the steps to acquiring a web host account and domain
+            name.</em
+          >
         </span>
-    </section>
-    <section class="thisWeek row" data-weekNum="11">
-        <span class="asmtstart"><em>Continue with Portfolio Web Site Project</em></span>
-    </section >
+      </section>
+      <section class="thisWeek row" data-weekNum="10">
+        <span class="asmtstart"
+          ><em>START Project <br />&mdash; Portfolio Web Site</em></span
+        >
+      </section>
 
-    <!--WEEK 11-->
-    <section class="thisWeek modsep row" data-weekNum="12">
-        <span>Week # 11
-            <hr />Fri. Mar. 24
+      <!--WEEK 10-->
+      <section class="thisWeek row" data-weekNum="11">
+        <span
+          >Week # 10
+          <br />
+          <hr />
+          Fri. Mar. 17
         </span>
-    </section>
-    <section class="thisWeek modsep row" data-weekNum="12">    
+      </section>
+      <section class="thisWeek row" data-weekNum="11">
         <span>
-            <div class="modThree">MODULE 3</div>
-            <h4>GITHUB PAGES</h4>
-            <ul>
-                <li>Create a repository</li>
-                <li>Upload files to your repository</li>
-                <li>Using GitHub pages to host your website</li>
-            </ul>
+          <div class="modThree">MODULE 3</div>
+          <h4>WEB HOSTING & DOMAINS</h4>
+          <ul>
+            <li>Uploading files to your hosting environment</li>
+            <li>File Transfer Protocol (FTP)</li>
+            <li>
+              Connect your domain to your hosting account (Domain Name records)
+            </li>
+          </ul>
         </span>
-    </section>
-    <section class="thisWeek modsep row" data-weekNum="12">   
+      </section>
+      <section class="thisWeek row" data-weekNum="11">
         <span>
-            <strong>Tutorial / Demonstration</strong><br>
-            <em>- Review the steps to creating GitHub account</em>
-            <hr>
-            <strong class="quiz">End of Module Quiz 3 -- 10 &#37;</strong>
+          <strong>Tutorial / Demonstration</strong><br />
+          <em>- Review the steps to uploading files to a web host account</em>
         </span>
-        </section>    
-        <section class="thisWeek modsep row" data-weekNum="12">   
-            <span class="asmtstart"><em>Continue with Portfolio Web Site Project</em></span>
-        </section >
+      </section>
+      <section class="thisWeek row" data-weekNum="11">
+        <span class="asmtstart"
+          ><em>Continue with Portfolio Web Site Project</em></span
+        >
+      </section>
 
-        <!--WEEK 12-->
-        <section class="thisWeek row" data-weekNum="13">
-            <span>Week # 12
-                <hr />Fri. Mar. 31
-            </span>
-            </section>
-            <section class="thisWeek row" data-weekNum="13">
-                <span>
-                    <div class="modFour">MODULE 4</div>
-                    <h4>CSS FRAMEWORKS / LIBRARIES</h4>
-                    <ul>
-                        <li>What is a CSS Library / Framework?</li>
-                        <li>Bulma, Foundation, Bootstrap</li>
-                        <li>Introduction to Bootstrap CSS</li>
-                    </ul>
-                </span>
-            </section>
-            <section class="thisWeek row" data-weekNum="13">      
-                <span>
-                    <strong>Tutorial / Demonstration</strong><br>
-                        <em>Introduction to Bootstrap CSS Framework</em>
-                </span>
-            </section>
-            <section class="thisWeek row" data-weekNum="13">      
-               <span class="asmtstart"><em>Continue with Portfolio Web Site Project</em></span>
-            </section >
-                    
-            <!--WEEK 13-->
-            <section class="thisWeek row" data-weekNum="14">
-                <span>Week # 13
-                    <hr />Fri. Apr. 7 (Good Friday - Holiday)
-                </span>
-            </section>
-            <section class="thisWeek row" data-weekNum="14"> 
-                <span>
-                    <div class="modFour">MODULE 4</div>
-                    <h4>BOOTSTRAP CSS</h4>
-                    <ul>
-                        <li>Bootstrap API</li>
-                        <li>Containers</li> 
-                        <li>Navigation</li> 
-                        <li>SASS</li>
-                    </ul>
-                </span>
-            </section>    
-            <section class="thisWeek row" data-weekNum="14">    
-                <span>
-                    <strong>Tutorial / Demonstration</strong>
-                    <br /><em>- Bootstrap CSS API, classes,  Modals</em>
-                </span>
-            </section>
-            <section class="thisWeek row" data-weekNum="14">    
-                <span class="asmtstart"><em>Continue with Portfolio Web Site Project</em></span>
-            </section >
-                
-            <!--WEEK 14-->
-            <section class="thisWeek row" data-weekNum="15">
-                <span>Week # 14
-                    <hr />Fri. Apr. 14
-                </span>
-            </section>
-            <section class="thisWeek row" data-weekNum="15">  
-                <span>
-                    <div class="modFour">MODULE 4</div>
-                    <h4>Introduction to WordPress</h4>
-                    <ul>
-                        <li>WordPress.com versus WordPress.org</li>
-                        <li>Themes and Plug-ins</li>
-                        <li>Child-Themes</li>
-                    </ul>
-                </span>
-            </section>
-            <section class="thisWeek row" data-weekNum="15">    
-                <span>
-                    <strong>Tutorial / Demonstration</strong>
-                    <br /><em>- Introduction to WordPress<br>
-                        - Continue with Portfolio website </em>
-                </span>
-                <hr>
-                <strong class="quiz">End of Module Quiz 4 -- 10 &#37;</strong>
-            </section>
-            <section class="thisWeek row" data-weekNum="15">        
-                <span class="asmtstart"><em>Continue with Portfolio Web Site Project</em></span>
-            </section >
-                    
-            <!--WEEK 15-->
-            <section class="thisWeek modsep row" data-weekNum="16">
-                <span>Week # 15
-                    <hr />Fri. Apr. 21
-                </span>
-            </section>
-            <section class="thisWeek modsep row" data-weekNum="16">  
-                <span class="contd">
-                    <h4>STUDENT PRESENTATIONS</h4>
-                </span>
-            </section>
-            <section class="thisWeek modsep row" data-weekNum="16">    
-                <span class="contd">
-                    <h4>STUDENT PRESENTATIONS</h4>
-                </span>
-            </section>
-            <section class="thisWeek modsep row" data-weekNum="16"> 
-                <span class="asmtsdue"><em>Portfolio Website &mdash; DUE<br>35 &#37;</em></span>
-            </section >
+      <!--WEEK 11-->
+      <section class="thisWeek modsep row" data-weekNum="12">
+        <span
+          >Week # 11
+          <hr />
+          Fri. Mar. 24
+        </span>
+      </section>
+      <section class="thisWeek modsep row" data-weekNum="12">
+        <span>
+          <div class="modThree">MODULE 3</div>
+          <h4>GITHUB PAGES</h4>
+          <ul>
+            <li>Create a repository</li>
+            <li>Upload files to your repository</li>
+            <li>Using GitHub pages to host your website</li>
+          </ul>
+        </span>
+      </section>
+      <section class="thisWeek modsep row" data-weekNum="12">
+        <span>
+          <strong>Tutorial / Demonstration</strong><br />
+          <em>- Review the steps to creating GitHub account</em>
+          <hr />
+          <strong class="quiz">End of Module Quiz 3 -- 10 &#37;</strong>
+        </span>
+      </section>
+      <section class="thisWeek modsep row" data-weekNum="12">
+        <span class="asmtstart"
+          ><em>Continue with Portfolio Web Site Project</em></span
+        >
+      </section>
+
+      <!--WEEK 12-->
+      <section class="thisWeek row" data-weekNum="13">
+        <span
+          >Week # 12
+          <hr />
+          Fri. Mar. 31
+        </span>
+      </section>
+      <section class="thisWeek row" data-weekNum="13">
+        <span>
+          <div class="modFour">MODULE 4</div>
+          <h4>CSS FRAMEWORKS / LIBRARIES</h4>
+          <ul>
+            <li>What is a CSS Library / Framework?</li>
+            <li>Bulma, Foundation, Bootstrap</li>
+            <li>Introduction to Bootstrap CSS</li>
+          </ul>
+        </span>
+      </section>
+      <section class="thisWeek row" data-weekNum="13">
+        <span>
+          <strong>Tutorial / Demonstration</strong><br />
+          <em>Introduction to Bootstrap CSS Framework</em>
+        </span>
+      </section>
+      <section class="thisWeek row" data-weekNum="13">
+        <span class="asmtstart"
+          ><em>Continue with Portfolio Web Site Project</em></span
+        >
+      </section>
+
+      <!--WEEK 13-->
+      <section class="thisWeek row" data-weekNum="14">
+        <span
+          >Week # 13
+          <hr />
+          Fri. Apr. 7 (Good Friday - Holiday)
+        </span>
+      </section>
+      <section class="thisWeek row" data-weekNum="14">
+        <span>
+          <div class="modFour">MODULE 4</div>
+          <h4>BOOTSTRAP CSS</h4>
+          <ul>
+            <li>Bootstrap API</li>
+            <li>Containers</li>
+            <li>Navigation</li>
+            <li>SASS</li>
+          </ul>
+        </span>
+      </section>
+      <section class="thisWeek row" data-weekNum="14">
+        <span>
+          <strong>Tutorial / Demonstration</strong>
+          <br /><em>- Bootstrap CSS API, classes, Modals</em>
+        </span>
+      </section>
+      <section class="thisWeek row" data-weekNum="14">
+        <span class="asmtstart"
+          ><em>Continue with Portfolio Web Site Project</em></span
+        >
+      </section>
+
+      <!--WEEK 14-->
+      <section class="thisWeek row" data-weekNum="15">
+        <span
+          >Week # 14
+          <hr />
+          Fri. Apr. 14
+        </span>
+      </section>
+      <section class="thisWeek row" data-weekNum="15">
+        <span>
+          <div class="modFour">MODULE 4</div>
+          <h4>Introduction to WordPress</h4>
+          <ul>
+            <li>WordPress.com versus WordPress.org</li>
+            <li>Themes and Plug-ins</li>
+            <li>Child-Themes</li>
+          </ul>
+        </span>
+      </section>
+      <section class="thisWeek row" data-weekNum="15">
+        <span>
+          <strong>Tutorial / Demonstration</strong>
+          <br /><em
+            >- Introduction to WordPress<br />
+            - Continue with Portfolio website
+          </em>
+        </span>
+        <hr />
+        <strong class="quiz">End of Module Quiz 4 -- 10 &#37;</strong>
+      </section>
+      <section class="thisWeek row" data-weekNum="15">
+        <span class="asmtstart"
+          ><em>Continue with Portfolio Web Site Project</em></span
+        >
+      </section>
+
+      <!--WEEK 15-->
+      <section class="thisWeek modsep row" data-weekNum="16">
+        <span
+          >Week # 15
+          <hr />
+          Fri. Apr. 21
+        </span>
+      </section>
+      <section class="thisWeek modsep row" data-weekNum="16">
+        <span class="contd">
+          <h4>STUDENT PRESENTATIONS</h4>
+        </span>
+      </section>
+      <section class="thisWeek modsep row" data-weekNum="16">
+        <span class="contd">
+          <h4>STUDENT PRESENTATIONS</h4>
+        </span>
+      </section>
+      <section class="thisWeek modsep row" data-weekNum="16">
+        <span class="asmtsdue"
+          ><em>Portfolio Website &mdash; DUE<br />35 &#37;</em></span
+        >
+      </section>
     </main>
-        <!--BEGIN SUMMARY TABLE-->
-        <section class="sumtable">
-            <span class="tableHead">Grading Summary</span>
-            <span class="tableHead">Value</span>
-            
-            <span class="row">Exercises</span>
-            <span class="row">25 %</span>
-            
-            <span class="row">End of Module Quizes</span>
-            <span class="row">40 %</span>
-            
-            <span class="row">Portfolio Website</span>
-            <span class="row">35 %</span>
+    <!--BEGIN SUMMARY TABLE-->
+    <section class="sumtable">
+      <span class="tableHead">Grading Summary</span>
+      <span class="tableHead">Value</span>
 
-            <span class="row"><strong>TOTAL</strong></span>
-            <span class="row"><strong>100 %</strong></span>
-        </section>
+      <span class="row">Exercises</span>
+      <span class="row">25 %</span>
 
-        <script src="weekNum-grid.js"></script>
-    </body>
+      <span class="row">End of Module Quizes</span>
+      <span class="row">40 %</span>
+
+      <span class="row">Portfolio Website</span>
+      <span class="row">35 %</span>
+
+      <span class="row"><strong>TOTAL</strong></span>
+      <span class="row"><strong>100 %</strong></span>
+    </section>
+
+    <script src="weekNum-grid.js"></script>
+  </body>
 </html>
