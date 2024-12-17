@@ -16,7 +16,7 @@ let result = getWeekNumber(new Date());
 
 /*
 Note that returning =>    result
-gives the array      =>    [2022, 1]  the current year and week number
+gives the array      =>    [2025, 1]  the current year and week number
 We can pull the indices of the array with the week at result[1] and year at result[0]
 There are only those two indices; 0 and 1
 The typeof(result[i]) is "number". 
