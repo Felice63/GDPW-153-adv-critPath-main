@@ -124,27 +124,27 @@ li {
     padding: 6px;
     text-align: right;
     margin-bottom: 12px;
-    } 
+} 
                 
 .modOne {
     background-color: cadetblue;
-    }
+}
             
 .modTwo {
     background-color: coral;
-    }
+}
     
 .modThree {
         background-color: #a54fab;
-        }
+}
         
 .modFour {
     background-color: #5c419e;
-    }
+}
 
 .modsep{
     border-bottom: 20px solid #ccc;
-   }
+}
 
 .sumtable {
     display: grid;
