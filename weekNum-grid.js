@@ -81,7 +81,7 @@ for(i = 0; i < tblRwQry.length; i++){
 
 }
 
-// Scroll to focus on the wearejhere class
+// Scroll to focus on the wearehere class
 
 document.getElementsByClassName("thisWeek wearehere")[0].scrollIntoView();
 
