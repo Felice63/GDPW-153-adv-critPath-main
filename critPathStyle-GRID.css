@@ -79,8 +79,6 @@ li {
     gap: 150px;
 }
 
-
-
 .midTerm {
     background-color: lightgrey;
 }
@@ -91,34 +89,34 @@ li {
 
 .wearehere {
     background-color: #cee6d1;
-    }
+}
     
 .labsdue {
     color: crimson;
-    }
+}
     
 .asmtstart {
     color: #6c6ce6;
-    }
+}
         
 .asmtsdue {
     color: #4742c6;
-    }
+}
                
 .projectstart, .projectsdue, .asmtstart, .asmtsdue {
     line-height: 30px;
-    }
+}
             
 .quiz {
     color: #9364ed;
     background-color: beige;
     padding: 10px;
     line-height:140%;
-    }
+}
         
 .contd {
     color: #7d7b9a
-    }
+}
             
 .modOne, .modTwo, .modThree, .modFour {
     font-weight: bold;
